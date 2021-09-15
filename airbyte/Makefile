@@ -1,5 +1,5 @@
 RELEASE_NAME := airbyte
-NAMESPACE := airbyte-test
+NAMESPACE := airbyte
 
 lint:
 	helm lint .
@@ -11,7 +11,7 @@ install:
 				--namespace $(NAMESPACE) \
 				--debug \
 				--wait \
-				--timeout 300s \
+				--timeout 600s \
 				$(RELEASE_NAME) .
 
 
