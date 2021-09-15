@@ -3,7 +3,7 @@ entries:
   airbyte:
   - apiVersion: v2
     appVersion: 0.29.13-alpha
-    created: "2021-09-15T11:37:46.071369+10:00"
+    created: "2021-09-15T15:42:11.209095+10:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -19,10 +19,10 @@ entries:
       repository: https://charts.bitnami.com/bitnami
       version: 7.x.x
     description: Helm chart to deploy airbyte
-    digest: a69c93db8e15b4f7388c1b9e9735926b9cfa1700cadc7f2256115aa594c013d8
+    digest: 5aa748081fa94bbc385b7888d47f067559dbf9780b377074681adafdbc30c8ca
     name: airbyte
     type: application
     urls:
     - https://danieldiamond.github.io/airbyte-helm-chart/airbyte-0.1.0.tgz
     version: 0.1.0
-generated: "2021-09-15T11:37:46.062552+10:00"
+generated: "2021-09-15T15:42:11.199193+10:00"
